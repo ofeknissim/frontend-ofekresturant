@@ -3,7 +3,7 @@ import ContentLoader from 'react-content-loader'
 
 const CategoryLoader = props => (
   <ContentLoader
-    width="auto"
+    width="200px"
     height={120}
     viewBox="0 0 500 100"
     backgroundColor="lightgray"

@@ -5,7 +5,7 @@ const TopRecipeLoader = props => {
   return (
     <ContentLoader
       height="auto"
-      width="auto"
+      width="200px"
       primaryColor="lightgray"
       secondaryColor="#ffffff"
       {...props}

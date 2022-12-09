@@ -26,7 +26,6 @@ const LoginModal = ({ setIsSignUpModal, isAdminLogin }) => {
     await loginData(userInfo);
   };
 
-  // set login data and jwt token in local storage
   useEffect(() => {
     if (result?.isSuccess) {
       localStorage.setItem("token", result?.data?.token);

@@ -41,7 +41,7 @@ export const authSlice = createSlice({
     logout: (state, { payload }) =>{
       state.token = payload;
       state.user = payload;
-    }
+    },
   },
 });
 

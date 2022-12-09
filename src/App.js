@@ -32,6 +32,7 @@ const AdminProfileUpdate = lazy(() => import("./Pages/Dashboard/AdminDashboard/A
 const PrivateOutlet = lazy(() => import("./Shared/PrivateOutlet"))
 const AdminOutlet = lazy(() => import("./Shared/AdminRoute"))
 
+
 function App() {
   useEffect(() => {
     setTimeout(() => {

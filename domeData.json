@@ -1,72 +1,6 @@
+
+[
 {
-  "msg": "All product",
-  "allProducts": [
-    {
-      "_id": "62ed59bb45a2f95ba4fc1fbb",
-      "title": "BBQ chicken",
-      "shortDescription": "A mighty meaty double helping of all the reasons you love our burger.",
-      "description": "The most common bed for the various toppings is cheese, because it provides moisture and firmness to the material above it. For the same purposes, cheese can be applied on the top of the pizza. The most common order of applying toppings on the crust is following:",
-      "price": 14,
-      "images": [
-        "http://res.cloudinary.com/online-poco/image/upload/v1659675367/poco-images/o0y3ivqexdernay2rre7.png"
-      ],
-      "category": "Pizza",
-      "review": [],
-      "createdAt": "2022-11-25T17:56:11.665Z",
-      "updatedAt": "2022-11-25T19:39:59.393Z",
-      "__v": 0
-    },
-    {
-      "_id": "62ed5a9245a2f95ba4fc1fc1",
-      "title": "Spaghetti Bolognese",
-      "shortDescription": "A mighty meaty double helping of all the reasons you love our burger.",
-      "description": "Cheese is traditionally the most common topping found on modern pizzas. Throughout the history many types of cheeses have been used in this meal, but most popular ones are Mozzarella, Ricotta, Feta, Parmesan, Cheddar and Monterey. Even though cheeses are rich with protein, calcium and sodium, they also can contain high amounts of fat. People who want to maintain their diet can choose to use low-fat cheeses, or to limit their amount and use more other toppings instead.",
-      "price": 11,
-      "images": [
-        "http://res.cloudinary.com/online-poco/image/upload/v1659675615/poco-images/fg5xmgf2mo9f5ro3eltu.png"
-      ],
-      "category": "Pizza",
-      "review": [
-        {
-          "_id": "62ef1ce5a44e86b07a5c5289",
-          "user": null,
-          "fullname": "ofekramnissim",
-          "email": "ofekram2399@gmail.com",
-          "ratingStar": 4,
-          "reviewText": "Wow",
-          "createdAt": "2022-11-26T02:01:09.949Z",
-          "updatedAt": "2022-11-26T02:01:09.949Z",
-          "__v": 0
-        },
-        {
-          "_id": "62f0d9f2372fbb4b33e64b79",
-          "user": {
-            "_id": "62f0d357372fbb4b33e64b29",
-            "fullname": "Admin",
-            "email": "admin@gmail.com",
-            "password": "$2b$10$lD3rPD5ZYqwSB/9PVbhvxOr83iFQdQPCAX95q.6xD0E3Fi5eTv4W6",
-            "role": "admin",
-            "profilePic": "https://drive.google.com/file/d/156LKqpS1E_WMgStQxmk7cqcC6TtQUAna/view?usp=sharing",
-            "wishlist": [],
-            "order": [],
-            "createdAt": "2022-11-26T09:11:51.866Z",
-            "updatedAt": "2022-11-26T09:11:51.866Z",
-            "__v": 0
-          },
-          "fullname": "Admin",
-          "email": "admin@gmail.com",
-          "ratingStar": 4.5,
-          "reviewText": "Wonderfull",
-          "createdAt": "2022-11-26T09:40:02.558Z",
-          "updatedAt": "2022-11-26T09:40:02.558Z",
-          "__v": 0
-        }
-      ],
-      "createdAt": "2022-11-26T17:59:46.913Z",
-      "updatedAt": "2022-11-26T09:40:02.759Z",
-      "__v": 0
-    },
-    {
       "_id": "62ed5adf45a2f95ba4fc1fc9",
       "title": "Tagliatelle Molto",
       "shortDescription": "Sauce is traditionally made from tomato, and can be additionally seasoned with wide variety of spices and herbs.",
@@ -378,7 +312,7 @@
       "_id": "62f09b3105aa7a32d366109f",
       "title": "Stawberry Ice",
       "shortDescription": "In a saucepan, bring sugar and water to a boil. Cook and stir until sugar is dissolved, about 5 minutes; cool slightly. Add to blender. Add lemon juice; cover and process until combined.",
-      "description": "The most widespread effects are:\n\nFocused\nCreative\nEnergetic\nUplifted\nEuphoric\nRelaxed\nAt the same time, this marijuana may induce some side effects, such as:\n\nDry eyes & mouth\nRapid heartbeat\nDizziness\nMedical Appointments\nIt can be pretty helpful with the following disorders:\n\nStress\nDepression\nMuscular dystrophy\nArthritis\nFatigue\nPhantom limb pain\nAlso, medical patients prone to anxiety should avoid this strain, as Strawberry Ice strain may worsen it.",
+      "description": "The most widespread effects medical patients prone to anxiety should avoid this strain, as Strawberry Ice strain may worsen it.",
       "price": 33,
       "images": [
         "http://res.cloudinary.com/online-poco/image/upload/v1659935450/poco-images/o7tcfa11z6houshvrdj8.png"
@@ -523,21 +457,6 @@
       "createdAt": "2022-11-28T10:11:10.683Z",
       "updatedAt": "2022-11-28T10:17:06.408Z",
       "__v": 0
-    },
-    {
-      "_id": "62f0e1da372fbb4b33e64c04",
-      "title": "fish sauce homemade",
-      "shortDescription": " little bit of booze will add a lot of zing to the classic thirst-quencher.There’s so much more to it than that.\n\nPineapple, strawberry, lavender, elderflower: these are just some of the few flavors to look forward to on this list.",
-      "description": "This line-up is more than just a simple addition of alcohol to lemonade, though. There’s so much more to it than that.\n\nPineapple, strawberry, lavender, elderflower: these are just some of the few flavors to look forward to on this list.\n\nIf you’ve been serving the same cocktails at cocktail hour, this collection will broaden that repertoire of yours.",
-      "price": 54,
-      "images": [
-        "http://res.cloudinary.com/online-poco/image/upload/v1659953604/poco-images/zo68hoqewzkqaui5c1mw.png"
-      ],
-      "category": "Sauces",
-      "review": [],
-      "createdAt": "2022-11-28T10:13:46.578Z",
-      "updatedAt": "2022-11-28T10:13:46.578Z",
-      "__v": 0
     }
-  ]
-}
+ 
+]
