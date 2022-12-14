@@ -1,5 +1,6 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { baseUrl } from "../../constant/constant";
+// CR: is this service only authentication? or also can modify client authorization
 const authServices = createApi({
   reducerPath: "authentication",
   baseQuery: fetchBaseQuery({
