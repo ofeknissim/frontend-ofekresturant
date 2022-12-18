@@ -39,8 +39,11 @@ user can add any product review. and all products shown on the testimonials sect
 - Mongoose
 - Express-validator
 
-### start the project client + server
+### start the project server
 - npm run start
+
+### start the project client
+npm start
 
 ### admin login 
 - admin@gmail.com
