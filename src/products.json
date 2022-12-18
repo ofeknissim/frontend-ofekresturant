@@ -1,0 +1,100 @@
+[   
+  {
+      "_id": "62ed5adf45a2f95ba4fc1fc9",
+      "title": "burger",
+      "images": 
+        "http://res.cloudinary.com/online-poco/image/upload/v1659842013/poco-images/cigf2va6bbdbrrj5vqeb.png"
+      ,
+      "category": "Burger",
+      "review": [
+      ],
+      "createdAt": "2022-11-26T18:01:03.888Z",
+      "updatedAt": "2022-11-26T17:53:21.527Z",
+      "__v": 0
+    },
+        {
+      "_id": "62ef2e5be1f988b74edb7478",
+      "title": "Chicken",
+      "images": 
+        "http://res.cloudinary.com/online-poco/image/upload/v1659842132/poco-images/bxu2z5m3cswvuwo6jiju.png"
+     ,
+      "category": "Chicken",
+      "review": [],
+      "createdAt": "2022-11-26T03:15:39.512Z",
+      "updatedAt": "2022-11-26T03:15:39.512Z",
+      "__v": 0
+    },
+     {
+      "_id": "62ef2f0fe1f988b74edb747f",
+      "title": "Sauces",
+      "images": 
+        "https://media.istockphoto.com/id/1297420372/photo/set-of-different-dip-sauces.jpg?b=1&s=612x612&w=0&k=20&c=QLrGwGlg3zz2vjnTViLCx18WDg_llZtkUeJ2Qw8zUIA="
+     ,
+      "category": "Sauces",
+      "review": [],
+      "createdAt": "2022-11-26T03:18:39.316Z",
+      "updatedAt": "2022-11-26T03:18:39.316Z",
+      "__v": 0
+    },
+    {
+      "_id": "62ed5b2545a2f95ba4fc1fcd",
+      "title": "Pasta",
+      "images": 
+        "http://res.cloudinary.com/online-poco/image/upload/v1659675745/poco-images/evrzdijv7ui9mu584zuh.png"
+    ,
+      "category": "Pasta",
+      "review": [],
+      "createdAt": "2022-11-26T18:02:13.200Z",
+      "updatedAt": "2022-11-26T06:02:17.208Z",
+      "__v": 0
+    },
+       {
+      "_id": "62ed5b2545a2f95ba4fc1fcd",
+      "title": "Drinks",
+      "images": 
+        "https://cdn.pixabay.com/photo/2020/04/02/18/01/glass-4996146__340.png"
+      ,
+      "category": "Drinks",
+      "review": [],
+      "createdAt": "2022-11-26T18:02:13.200Z",
+      "updatedAt": "2022-11-26T06:02:17.208Z",
+      "__v": 0
+    },
+      {
+      "_id": "62ed5b2545a2f95ba4fc1fcd",
+      "title": "Beverages",
+      "images": [
+        "https://cdn.pixabay.com/photo/2018/10/16/23/48/milkshake-3752840__340.png"
+      ],
+      "category": "Bevarages",
+      "review": [],
+      "createdAt": "2022-11-26T18:02:13.200Z",
+      "updatedAt": "2022-11-26T06:02:17.208Z",
+      "__v": 0
+    },
+    {
+      "_id": "62ef2deee1f988b74edb7472",
+      "title": "Combo",
+      "images": 
+        "https://images.freeimages.com/images/previews/0e3/burger-with-coke-1641323.jpg"
+     ,
+      "category": "Combo",
+      "review": [],
+      "createdAt": "2022-11-26T03:13:50.576Z",
+      "updatedAt": "2022-11-26T03:13:50.576Z",
+      "__v": 0
+    },
+     {
+      "_id": "62ef2deee1f988b74edb7472",
+      "title": "Pizza",
+      "images": 
+        "https://media.istockphoto.com/id/1082045162/vector/fresh-pizza-with-tomato-cheese-olive-sausage-onion.jpg?s=612x612&w=0&k=20&c=zKrpufmfeSaO-oPow80O8fhGRi65KC9ckcbGonlp7Ec="
+      ,
+      "category": "Pizza",
+      "review": [],
+      "createdAt": "2022-11-26T03:13:50.576Z",
+      "updatedAt": "2022-11-26T03:13:50.576Z",
+      "__v": 0
+    }
+    ]
+    

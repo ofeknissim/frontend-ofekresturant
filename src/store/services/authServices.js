@@ -38,7 +38,7 @@ const authServices = createApi({
     signup: builder.mutation({
       query: (signupData) => ({
         headers: { "Content-Type": "application/json" },
-        url: "auth/signup",
+        url: "http://localhost:5000/auth/signup",
         method: "POST",
         body: signupData,
       }),
@@ -47,7 +47,7 @@ const authServices = createApi({
     login: builder.mutation({
       query: (loginData) => ({
         headers: { "Content-Type": "application/json" },
-        url: "auth/login",
+        url:"http://localhost:5000/auth/login",
         method: "POST",
         body: loginData,
       }),

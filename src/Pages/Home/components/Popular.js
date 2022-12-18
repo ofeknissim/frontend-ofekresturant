@@ -6,6 +6,7 @@ import { useAllCategoryQuery, useAllProductQuery } from "../../../store/services
 import MenuLoader from "../../../Shared/Loader/MenuLoader";
 import { useEffect } from "react";
 
+
 const Popular = () => {
   const { data:allCategory} = useAllCategoryQuery();
   const [openTab, setOpenTab] = useState(allCategory?.allCategory[0]?.categoryName);

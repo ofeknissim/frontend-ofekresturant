@@ -116,7 +116,6 @@ const Product = ({ gridView, product }) => {
               activeColor="#ffd700"
             />
           )}
-
           <h3
             onClick={() => handleNavigate(product?._id)}
             className="text-2xl font-bold text-heading hover:text-primary_hover cursor-pointer"

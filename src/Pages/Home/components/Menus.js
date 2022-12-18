@@ -4,6 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import CategoryLoader from "../../../Shared/Loader/CategoryLoader";
 import { filterByCategory } from "../../../store/reducers/cartSlice";
 import { useAllCategoryQuery } from "../../../store/services/productServices";
+import Data from "../../../products.json";
 
 const Menus = () => {
   const { data, isSuccess, isLoading } = useAllCategoryQuery({});
@@ -28,7 +29,7 @@ const Menus = () => {
           <CategoryLoader />
         ) : (
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-5">
-            {data?.allCategory.slice(0, 8).map((category, index) => (
+            {Data.slice(0, 8).map((category, index) => (
               <button
                 key={index}
                 className="flex items-center justify-center flex-col cursor-pointer hover:text-white transition-all duration-150 group bg-primary/40 rounded-xl px-4 py-2"
@@ -37,12 +38,12 @@ const Menus = () => {
                 <div className="mx-auto overflow-hidden">
                   <img
                     className="group-hover:scale-110 transition-all duration-300 ease-in-out w-24 h-[100px] object-contain"
-                    src={category.categoryImage}
+                    src={category.images}
                     alt="category-img"
                   />
                 </div>
                 <h2 className="uppercase text-sm font-bold text-center">
-                  {category.categoryName}
+                  {category.category}
                 </h2>
               </button>
             ))}

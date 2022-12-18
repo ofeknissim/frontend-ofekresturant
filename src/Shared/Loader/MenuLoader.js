@@ -27,8 +27,8 @@ const MenuLoader = props => (
 )
 
 MenuLoader.metadata = {
-  name: 'Hassan Tijani.A',
-  github: 'surepeps',
+  name: 'ofek',
+  github: 'ofeknissim',
   description: 'Image Grid with Pagination',
   filename: 'ImageGrid',
 }
