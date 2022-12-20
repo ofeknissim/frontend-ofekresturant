@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { useAllCategoryQuery, useAllProductQuery } from "../../../store/services/productServices";
 import MenuLoader from "../../../Shared/Loader/MenuLoader";
 import { useEffect } from "react";
+import Data from "./domeData.json";
 
 
 const Popular = () => {
@@ -15,6 +16,7 @@ const Popular = () => {
   const filteredData = data?.allProducts.filter(
     (product) => product.category === openTab
     );
+
 
   useEffect(()=>{
       setOpenTab(allCategory?.allCategory[0]?.categoryName)
@@ -31,7 +33,7 @@ const Popular = () => {
           <MenuLoader />
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:px-0">
-            {filteredData
+            {Data
               ?.slice(0, 8)
               .map((product) => (
                 <Product

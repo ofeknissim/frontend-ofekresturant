@@ -6,6 +6,7 @@ import FreeService from "./components/FreeService";
 import NavBar from "../../Shared/NavBar";
 import Footer from "../../Shared/Footer";
 
+
 const Menu = () => {
   return (
     <>

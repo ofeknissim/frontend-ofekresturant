@@ -13,6 +13,7 @@ import { sortProduct } from "../../store/reducers/cartSlice";
 import NotFound from "../../Shared/DataNotFound";
 import MenuLoader from "../../Shared/Loader/MenuLoader";
 import Pagination from "../../Shared/Pagination";
+import Data from '../Home/components/domeData.json';
 
 const Shop = () => {
   const [gridView, setGridView] = useState(true);
@@ -125,7 +126,7 @@ const Shop = () => {
                     : `grid grid-cols-1 gap-5`
                 }
               >
-                {productSortByPriceAndCategory()
+                {Data.productSortByPriceAndCategory()
                   ?.map((product) => (
                     <Product
                       key={product._id}

@@ -3,6 +3,7 @@ import MenuItemLoader from "../../../Shared/Loader/MenuItemLoader";
 import Tab from "../../../Shared/Tab";
 import { useAllCategoryQuery, useAllProductQuery } from "../../../store/services/productServices";
 import MenuItem from "./MenuItem";
+import Data from "../../Home/components/domeData.json";
 const MenuSection = () => {
   const { data:allCategory} = useAllCategoryQuery();
   const [openTab, setOpenTab] = useState(allCategory?.allCategory[0]?.categoryName);
@@ -19,8 +20,8 @@ const MenuSection = () => {
         <MenuItemLoader />
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {filteredData?.slice(0, 6).map((product) => (
-            <MenuItem product={product} />
+          {Data.slice(0, 6).map((product,index) => (
+            <MenuItem key={index} product={product} />
           ))}
         </div>
       )}
